@@ -1,0 +1,16 @@
+body {
+    background-image: url("../images/background.jpg")
+}
+
+#mainSection {
+    display: table; background-color: rgb(104, 104, 104); border: 20px solid azure; margin-top: 5%; height: 80%; width: 75%
+}
+
+h1 {
+    display: block; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; text-align: center; font-size: 38px; margin: auto;
+    color: azure
+}
+
+#lowerSection {
+    display: block;
+}

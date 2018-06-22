@@ -1,0 +1,58 @@
+<!doctype html>
+<head>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+    
+</head>
+<title>Trivia Game</title>
+ 
+<html>
+<body> 
+    
+    <div class = "container" id = "mainSection">
+        <div class = "row">
+            <div class = "col">
+                <h1>TRIVIA TIME</h1>
+            </div>
+        </div>    
+        <div class = "row">
+            <div class = "col-3 ml-auto"></div>
+            <div class = "col-6">
+                <button id ="startButton">Start Game</button>
+                <h2 style="text-align: center">Time Remaining: <span id = "timeLeft"></span></h2>
+                <h2 style="text-align: center">Questions left: <span id = "questionsLeft"></span></h2>
+            </div>
+            <div class = "col-3 mr-auto"></div>
+        </div>
+        <!-- this is the section that changes questions each round-->
+        <div class = "row">
+            <div class = "col-2 ml-auto"></div>
+            <div class = "col-8">
+                <h2><span id = "nextQuestion"></span></h2>
+            </div>
+            <div class = "col-2 mr-auto"></div>
+        </div>
+        <!-- this is the section that changes answers each round-->
+        <div class = "row">
+            <div class = "col-2 ml-auto"></div>
+            <div class = "col-8">
+                <div class = "answerButton"><h2><span id = "nextAnswer1"></span></h2></div>
+                <div class = "answerButton"><h2><span id = "nextAnswer2"></span></h2></div>
+                <div class = "answerButton"><h2><span id = "nextAnswer3"></span></h2></div>
+                <div class = "answerButton"><h2><span id = "nextAnswer4"></span></h2></div>
+            </div>
+            <div class = "col-2 mr-auto"></div>
+        </div>
+
+</div> <!-- end container-->
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="assets/javascript/app.js"></script>
+    <script type="text/javascript" src="assets/javascript/data.js"></script>
+    
+    
+    
+    
+</body>
+</html>
